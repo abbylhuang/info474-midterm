@@ -17,7 +17,7 @@
     // makeScatterPlot function and pass it the data
     // d3.csv is basically fetch but it can be be passed a csv file as a parameter
     // https://www.tutorialsteacher.com/d3js/loading-data-from-file-in-d3js
-    d3.csv('data/seasons_(SimpsonsData).csv')
+    d3.csv('data/Seasons_(SimpsonsData).csv')
       .then((data) => makeScatterPlot(data));
       //console.log(data)
   }
