@@ -1,0 +1,49 @@
+body { font: 12px Arial;
+background: #fdec75;
+}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 250px;
+    height: 100px;
+    padding: 2px;
+    font: 12px sans-serif;
+    font-weight: bold;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+.chart .annotation {
+    fill: none;
+    stroke: blue;
+    stroke-width: 1;
+    stroke-dasharray: 3, 3;
+}
+
+.svg {
+    background: white;
+}
+
+/* .body {
+    background-color: #fdec75;
+} */
+
+.graph-svg-component {
+    background-color: white; 
+}
